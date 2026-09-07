@@ -12,3 +12,5 @@ IdentityFile ~/.ssh/id_homelab      # What key use in host
 IdentitiesOnly yes                  # Only use this key, don't offer any other.
 
 ---
+
+If gonna commit something in `docs/`, use the convetional commit, `docs`.
