@@ -9,4 +9,5 @@ build/
 node_modules/
 __pycache__/
 .venv/
+ntk.md
 
