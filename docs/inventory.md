@@ -56,3 +56,5 @@ TP-LINK(192.168.0.x) Create a sub-net inside Intelbras network.
 That's make the network be translated two(2) times, generating a Double NAT.
 
 More in [ADR-0003](./decisions/0003-why-i-choose-double-nat.md)
+
+- For now, the ADR don't exist, but I'm writing it.
