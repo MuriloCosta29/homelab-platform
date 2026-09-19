@@ -2,6 +2,23 @@
 
 A hands-on platform engineering lab built on an Ubuntu Server.
 
+## Current Focus
+
+Updated: 2026-09-19
+Learn about:
+
+- Ports
+- TCP
+- UDP
+- IP Addressing
+- Subnetting
+- DNS
+- NAT
+- Routing
+- Some tools like: ping, traceroutes, dig, ss, tcp dump
+
+Currently I'm studying this to continue the project.
+
 ## Goal
 
 Build a small production-like environment to learn Linux, networking, secure access, deployments, automation, observability, CI/CD, containers, and eventually Kubernetes.
