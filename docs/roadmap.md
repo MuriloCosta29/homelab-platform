@@ -2,21 +2,21 @@
 
 ## Phase 0: Inventory
 
-- [ ] Document the server model.
-- [ ] Document CPU, RAM, and disk.
-- [ ] Document the network interface.
-- [ ] Document the Mac IP.
-- [ ] Document the planned Ubuntu Server IP.
-- [ ] Document the gateway.
-- [ ] Document the router mode: router or access point.
+- [x] Document the server model.
+- [x] Document CPU, RAM, and disk.
+- [x] Document the network interface.
+- [x] Document the Mac IP.
+- [x] Document the planned Ubuntu Server IP.
+- [x] Document the gateway.
+- [x] Document the router mode: router or access point.
 
 ## Phase 1: Network
 
-- [ ] Decide between DHCP reservation and static IP with Netplan.
-- [ ] Make sure the Mac and Ubuntu Server are in the same subnet.
-- [ ] Test `ping` from the Mac to the Ubuntu Server.
-- [ ] Test internet access from Ubuntu by IP: `ping 1.1.1.1`.
-- [ ] Test DNS from Ubuntu: `resolvectl query google.com`.
+- [x] Decide between DHCP reservation and static IP with Netplan.
+- [x] Make sure the Mac and Ubuntu Server are in the same subnet.
+- [x] Test `ping` from the Mac to the Ubuntu Server.
+- [x] Test internet access from Ubuntu by IP: `ping 1.1.1.1`.
+- [x] Test DNS from Ubuntu: `resolvectl query google.com`.
 - [ ] Record the final configuration in `docs/inventory.md`.
 - [ ] Write a learning note explaining DHCP, Netplan, gateway, subnet, and DNS.
 - [ ] Draft the first blog post.
@@ -33,5 +33,3 @@ Decision recorded in `docs/decisions/0001-dedicated-ssh-key.md`.
 - [ ] Disable password authentication after key login is confirmed.
 - [ ] Record the procedure in `docs/runbooks/ssh-access.md`.
 - [ ] Write a blog post about secure remote access.
-
-
