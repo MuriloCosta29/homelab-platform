@@ -29,25 +29,6 @@ resolvectl status -> Active DNS configuration, and resolvers
 - SSH by IP does not require DNS.
 - SSH by hostname requires name resolution.
 
-## Static IP Example With Netplan
-
-```yaml
-network:
-  version: 2
-  ethernets:
-    enp3s0:
-      dhcp4: false
-      addresses:
-        - 192.168.0.50/24
-      routes:
-        - to: default
-          via: 192.168.0.1
-      nameservers:
-        addresses:
-          - 1.1.1.1
-          - 8.8.8.8
-```
-
 ## Validation
 
 On Ubuntu:
@@ -67,9 +48,10 @@ ssh user@192.168.0.50
 ## The because of validation
 
 `ping 1.1.1.1`
-  - Prove that exist a route to internet. `gateway, route and NAT`.
+
+- Prove that exist a route to internet. `gateway, route and NAT`.
 
 `resolvectl query google.com`
-  - Prove only one things.
-    - The server can translate **name** in **ip**.
 
+- Prove only one things.
+  - The server can translate **name** in **ip**.
