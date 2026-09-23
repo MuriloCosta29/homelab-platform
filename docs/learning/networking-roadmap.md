@@ -25,3 +25,7 @@ certification). Stop criterion: Answer my own review questions without looking a
 ## Note
 
 The first topics like Ports, TCP and UDP, the Claude send to me for know the basics, and understand more clearly the project. But the second topic, bridge, namespaces and others I see in a Docker Course, and anotate the words to search later, because I like to understand all I'm doing and what the content envolve.
+
+## The discution with AI about this
+
+[Click here](../ai/0001-network.md)
