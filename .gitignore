@@ -11,3 +11,7 @@ __pycache__/
 .venv/
 ntk.md
 i.md
+
+docs/decisions/0003-why-i-choose-double-nat.md
+redes-aula-so.md
+roteador.md
