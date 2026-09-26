@@ -17,7 +17,7 @@ Learn about:
 - Routing
 - Some tools like: ping, traceroutes, dig, ss, tcp dump
 
-Currently I'm studying this to continue the project.
+Roadmap:[Click here to see](/docs/learning/networking-roadmap.md)
 
 ## Goal
 
@@ -75,6 +75,7 @@ docs/inventory.md  Factual state of the server and network
 docs/roadmap.md    Active phases (0-2)
 docs/backlog.md    Future phases, not planned in detail yet
 docs/learning      Notes about everthing
+docs/ai            Documetation about AI use
 ```
 
 ## Current Status
